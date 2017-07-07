@@ -10,5 +10,6 @@ public enum Cat {
     TELECOM,
     INSURANCE,
     HR,
-    PLANT
+    PLANT,
+    MARKETING
 }

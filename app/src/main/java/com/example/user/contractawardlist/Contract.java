@@ -17,13 +17,13 @@ public class Contract {
     private Status status;
     private Cat category;
     private int strategicImportanceRating;
-    private Date startDate;
-    private Date endDate;
+    private String startDate;
+    private String endDate;
     private int contractedValue;
     private int actualValue;
     private String description;
 
-    public Contract(String title, String manager, String supplier, Status status, Cat category, int strategicImportanceRating, Date startDate, Date endDate, int contractedValue, int actualValue, String description) {
+    public Contract(String title, String manager, String supplier, Status status, Cat category, int strategicImportanceRating, String startDate, String endDate, int contractedValue, int actualValue, String description) {
         this.title = title;
         this.manager = manager;
         this.supplier = supplier;
@@ -85,19 +85,19 @@ public class Contract {
         this.strategicImportanceRating = strategicImportanceRating;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public String getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
 
@@ -124,5 +124,9 @@ public class Contract {
     public void setDescription(String description) {
         this.description = description;
     }
+
+//    public int daysToExpiry() {
+////        return endDate - startDate
+//    }
 
 }
