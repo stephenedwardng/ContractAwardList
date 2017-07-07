@@ -31,12 +31,6 @@ public class ContractsActivity extends AppCompatActivity {
         sb.append(movie.getTitle());
 
         Toast.makeText(this, sb.toString(), Toast.LENGTH_SHORT).show();
-//        Snackbar snackbar = Snackbar.make(listItem, sb.toString(), Snackbar.LENGTH_LONG);
-//
-//        //snackbar.setAction("Say Hello", this);
-//
-//        snackbar.show();
-
     }
 
 }
