@@ -1,7 +1,5 @@
 package com.example.user.contractawardlist;
 
-import java.util.Date;
-
 import behaviours.Cat;
 import behaviours.Status;
 
