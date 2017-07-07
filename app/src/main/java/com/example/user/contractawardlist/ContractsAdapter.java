@@ -31,7 +31,7 @@ public class ContractsAdapter extends ArrayAdapter<Contract> {
         Contract currentContract = getItem(position);
 
         TextView strategicImportanceRating = (TextView) listItemView.findViewById(R.id.strategicImportanceRating);
-        strategicImportanceRating.setText(currentContract.getStrategicImportanceRating().toString());
+        strategicImportanceRating.setText(currentContract.getStrategicImportanceRating());
 
         TextView title = (TextView) listItemView.findViewById(R.id.title);
         title.setText(currentContract.getTitle());
